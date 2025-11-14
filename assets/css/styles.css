@@ -1,4 +1,4 @@
-/* ========== CSS Variables & Reset ========== */
+
 /* 1. IMPORT TITAN ONE FONT FROM GOOGLE FONTS */
 @import url('https://fonts.googleapis.com/css2?family=Titan+One&display=swap');
 
@@ -751,4 +751,5 @@ a:focus, button:focus, input:focus, textarea:focus{outline:2px solid var(--accen
 }
 .ka-wa-cta:hover {
   filter: brightness(1.03);
+
 }
