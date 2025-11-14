@@ -1,0 +1,454 @@
+<!DOCTYPE html>
+<html lang="en" data-random-animation="false" data-animation="16">
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <title>Kais Alshaar | Senior Full-Stack .NET & Flutter Developer</title>
+  <meta name="description" content="Kais Abdul Basit Mustafa Alshaar — Senior Full-Stack Web & Flutter Developer. .NET Core, Blazor, SignalR, SQL Server, networking and operations." />
+
+  <!-- Bootstrap 5 -->
+  <link
+    href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+    rel="stylesheet"
+  />
+
+  <!-- Font Awesome -->
+  <link rel="preconnect" href="https://cdnjs.cloudflare.com" crossorigin>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+  <!-- Favicon (inline SVG) -->
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTI4IiBoZWlnaHQ9IjEyOCIgdmlld0JveD0iMCAwIDEyOCAxMjgiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGRlZnM+PGxpbmVhckdyYWRpZW50IGlkPSJnIiB4MT0iMCIgeTE9IjAiIHgyPSIxIiB5Mj0iMSI+PHN0b3Agc3RvcC1jb2xvcj0iIzM4YmRmOCIgb2Zmc2V0PSIwIi8+PHN0b3Agc3RvcC1jb2xvcj0iI2E3OGJmYSIgb2Zmc2V0PSIxIi8+PC9saW5lYXJHcmFkaWVudD48L2RlZnM+PHJlY3Qgd2lkdGg9IjEyOCIgaGVpZ2h0PSIxMjgiIHJ4PSIyNCIgZmlsbD0idXJsKCNnKSIvPjx0ZXh0IHg9IjUwJSIgeT0iNTAlIiBmb250LXNpemU9IjcyIiBmb250LXdlaWdodD0iODAwIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmaWxsPSIjZmZmIj5LQTwvdGV4dD48L3N2Zz4=">
+
+  <!-- Main CSS -->
+  <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+
+<body>
+  <!-- Elfsight widget -->
+  <!-- <div class="elfsight-app-04604ded-8c11-4078-9b6f-1684126e1af7 data-elfsight-app-lazy"></div> -->
+
+  <!-- PRELOADER -->
+  <div class="preloader" id="preloader" aria-hidden="true">
+    <div class="loader">
+      <h4>Kais Alshaar Portfolio</h4>
+      <div class="dots">
+        <span class="dot"></span><span class="dot"></span><span class="dot"></span><span class="dot"></span>
+      </div>
+    </div>
+  </div>
+
+  <!-- MOBILE HEADER -->
+  <div class="header-mobile d-lg-none">
+    <div class="bar">
+      <button class="hamburger" id="menuToggle" aria-label="Menu" aria-expanded="false" aria-controls="mobileMenu">
+        <span></span>
+      </button>
+      <strong>Kais Alshaar</strong>
+      <a class="btn small download" href="./assets/docs/Kais_Alshaar_CV.pdf" id="downloadCVm">CV</a>
+    </div>
+    <div class="mobile-drawer" id="mobileMenu" role="navigation" aria-label="Mobile" hidden>
+      <a href="#home">Home</a>
+      <a href="#about">About</a>
+      <a href="#services">Services</a>
+      <a href="#projects">Projects</a>
+      <a href="#training">Training</a>
+      <a href="#contact">Contact</a>
+    </div>
+  </div>
+
+  <!-- LAYOUT -->
+  <div class="layout container-fluid">
+    <div class="row g-0">
+      <!-- SIDEBAR / HEADER (desktop) -->
+      <header class="col-lg-3 d-none d-lg-flex p-0">
+        <div class="header-inner">
+          <div class="brand">
+            <div class="logo" aria-hidden="true">KA</div>
+            <div class="brand-meta">
+              <h2>Kais Alshaar</h2>
+              <div class="muted header-subtitle">Senior Full-Stack & Flutter Developer</div>
+            </div>
+          </div>
+
+          <nav aria-label="Primary">
+            <ul>
+              <li><a class="active" href="#home"><i class="fa-solid fa-house"></i> Home</a></li>
+              <li><a href="#about"><i class="fa-regular fa-user"></i> About</a></li>
+              <li><a href="#services"><i class="fa-solid fa-briefcase"></i> Services</a></li>
+              <li><a href="#projects"><i class="fa-solid fa-layer-group"></i> Projects</a></li>
+              <li><a href="#training"><i class="fa-solid fa-certificate"></i> Training</a></li>
+              <li><a href="#contact"><i class="fa-regular fa-envelope"></i> Contact</a></li>
+            </ul>
+          </nav>
+
+          <div class="social">
+            <div class="icons">
+              <a href="https://linkedin.com/in/kais-alshaar-09828629a" aria-label="LinkedIn"><i class="fa-brands fa-linkedin"></i></a>
+              <a href="https://github.com/qaisalshaar" aria-label="GitHub"><i class="fa-brands fa-github"></i></a>
+            </div>
+            <div class="copy">© <span id="year"></span> Kais Alshaar</div>
+          </div>
+        </div>
+      </header>
+
+      <!-- MAIN -->
+      <main class="col-12 col-lg-9 main p-0">
+
+        <!-- BANNER / HOME -->
+        <section id="home" class="banner section">
+          <div class="container">
+            <div class="row align-items-center gy-4">
+              <div class="col-12 col-lg-7">
+                <p class="eyebrow">
+                  .NET Core • Angular • Blazor • SignalR<br>
+                  SQL • Flutter
+                </p>
+                <h1 class="headline">Kais <span class="accent">Alshaar</span></h1>
+                <p class="muted mt-6">
+                  I build robust web & mobile solutions and bring operations know-how across networking, virtualization, and administration.
+                </p>
+
+                <p class="role-line">
+                  <span class="eyebrow">I am a </span>
+                  <span class="rotator" id="rotator">
+                    <span class="rotate-item active">Senior Full-Stack .NET Developer</span>
+                    <span class="rotate-item">Flutter Mobile Developer</span>
+                    <span class="rotate-item">IT Officer & Network Admin</span>
+                    <span class="rotate-item">Country Administrator (Finance & Logistics)</span>
+                  </span>
+                </p>
+
+                <div class="cta">
+                  <a class="btn" href="#projects"><i class="fa-solid fa-eye"></i> View Projects</a>
+                  <a class="btn ghost" href="#training"><i class="fa-solid fa-award"></i> Training</a>
+                </div>
+
+                <ul class="facts">
+                  <li>Baghdad, Iraq • Amman, Jordan</li>
+                  <li>English (Very good), Arabic (Native)</li>
+                  <li>Member — Iraqi Computers Society (since 1992)</li>
+                </ul>
+              </div>
+
+              <div class="col-12 col-lg-5 text-center text-lg-end">
+                <figure class="portrait d-inline-block">
+                  <img src="assets/img/portrait.jpg" alt="Portrait of Kais Alshaar">
+                </figure>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- ABOUT -->
+        <section id="about" class="section alt">
+          <div class="container">
+            <div class="row g-4 about">
+              <!-- Left column -->
+              <div class="col-12 col-lg-6">
+                <h2>About</h2>
+                <p class="muted">
+                  B.Sc. in Operational Research (Al-Mansour University, 1992). More than 20 years across software development,
+                  IT operations, and administration—delivering modern .NET web apps, Flutter mobile apps, and reliable infrastructure.
+                </p>
+
+                <div class="tags">
+                  <span class="badge"><i class="fa-solid fa-code"></i> ASP.NET Core, MVC, Angular, Blazor, SignalR</span>
+                  <span class="badge"><i class="fa-solid fa-database"></i> SQL Server / T-SQL</span>
+                  <span class="badge"><i class="fa-solid fa-mobile-screen-button"></i> Flutter / Dart</span>
+                  <span class="badge"><i class="fa-solid fa-network-wired"></i> Windows Server / AD / Virtualization</span>
+                  <span class="badge"><i class="fa-brands fa-jira"></i> Jira — Project Tracking</span>
+                  <span class="badge"><i class="fa-brands fa-trello"></i> Trello — Project Tracking</span>
+                </div>
+
+                <div class="signature">“Quality, reliability, and clear communication.”</div>
+              </div>
+
+              <!-- Right column -->
+              <div class="col-12 col-lg-6">
+                <div class="about-info">
+                  <h3>Personal Information</h3>
+                  <ul>
+                    <li><span class="title">Name</span><span class="value">Kais Abdul Basit Mustafa Alshaar</span></li>
+                    <li><span class="title">Residence</span><span class="value">Baghdad, Iraq • Amman, Jordan</span></li>
+                    <li><span class="title">Email</span><span class="value"><a href="mailto:qaisalshaar2020@outlook.com">qaisalshaar2020@outlook.com</a></span></li>
+                    <li>
+                      <span class="title">GitHub</span>
+                      <span class="value"><a href="https://github.com/qaisalshaar" target="_blank" rel="noopener">github.com/qaisalshaar</a></span>
+                    </li>
+                    <li>
+                      <span class="title">LinkedIn</span>
+                      <span class="value"><a href="https://www.linkedin.com/in/kais-alshaar-09828629a" target="_blank" rel="noopener">linkedin.com/in/kais-alshaar-09828629a</a></span>
+                    </li>
+                    <li><span class="title">Freelance</span><span class="value">Available</span></li>
+                    <li><span class="title">Full-time</span><span class="value">Open</span></li>
+                  </ul>
+
+                  <div class="about-download">
+                    <a class="btn small" id="downloadCV" href="./assets/docs/Kais_Alshaar_CV.pdf" download>
+                      <i class="fa-regular fa-file-lines"></i> Download CV
+                    </a>
+                  </div>
+                </div>
+              </div>
+
+            </div>
+          </div>
+        </section>
+
+        <!-- SERVICES -->
+        <section id="services" class="section services-bg-blue">
+          <div class="container">
+            <h2>Services</h2>
+            <div class="row row-cols-1 row-cols-md-2 row-cols-xl-4 g-3 mt-4">
+              <div class="col">
+                <article class="card h-100 reveal">
+                  <h3><i class="fa-solid fa-globe"></i> Web Development</h3>
+                  <p class="muted">
+                    Full-stack .NET apps (.NET Core, MVC, Angular, Blazor, SignalR), REST APIs, secure auth, and responsive UIs (HTML5/CSS/Bootstrap, jQuery/Ajax).
+                  </p>
+                </article>
+              </div>
+              <div class="col">
+                <article class="card h-100 reveal">
+                  <h3><i class="fa-solid fa-mobile-screen"></i> Mobile Development</h3>
+                  <p class="muted">
+                    Flutter apps for e-commerce and schools; API integration, state management, deployment readiness.
+                  </p>
+                </article>
+              </div>
+              <div class="col">
+                <article class="card h-100 reveal">
+                  <h3><i class="fa-solid fa-network-wired"></i> IT Operations</h3>
+                  <p class="muted">
+                    Windows Server & AD, virtualization, multi-site networking, security cameras, and wireless deployments.
+                  </p>
+                </article>
+              </div>
+              <div class="col">
+                <article class="card h-100 reveal">
+                  <h3><i class="fa-solid fa-clipboard-check"></i> Admin / Finance &amp; Logistics</h3>
+                  <p class="muted">
+                    Budgeting, procurement, cash-flow, reconciliations, and operations support for NGOs and enterprises.
+                  </p>
+                </article>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- PROJECTS / PORTFOLIO -->
+        <section id="projects" class="section alt">
+          <div class="container">
+            <h2>Selected Projects</h2>
+            <div class="filters" aria-label="Project filters">
+              <button class="filter active" data-filter="all">All</button>
+              <button class="filter" data-filter="gov">Government / NGO</button>
+              <button class="filter" data-filter="corp">Corporate</button>
+              <button class="filter" data-filter="edu">Education</button>
+            </div>
+
+            <div class="row g-3 projects" id="projectGrid">
+              <div class="col-12 col-sm-6 col-md-4 project" data-cat="corp">
+                <div class="project-media">
+                  <img src="assets/img/agric.png" alt="Jordan Agricultural Engineers Association logo" loading="lazy">
+                </div>
+                <div class="project-body">
+                  <h4>Jordan Agricultural Engineers Association</h4>
+                  <p>.NET Core, SQL Server, Responsive UI</p>
+                  <a class="btn small" href="http://www.agrieng.org.jo/" target="_blank" rel="noopener">Visit Site</a>
+                </div>
+              </div>
+
+              <div class="col-12 col-sm-6 col-md-4 project" data-cat="corp">
+                <div class="project-media">
+                  <img src="assets/img/rhodes.png" alt="Rhodes Precast logo" loading="lazy">
+                </div>
+                <div class="project-body">
+                  <h4>Rhodes Precast</h4>
+                  <p>Rhodes Precast Concrete Private Free Zone (RPCFZ)</p>
+                  <a class="btn small" href="http://rhodesprecast.com/" target="_blank" rel="noopener">Visit Site</a>
+                </div>
+              </div>
+
+              <div class="col-12 col-sm-6 col-md-4 project" data-cat="edu">
+                <div class="project-media">
+                  <img src="assets/img/iman.png" alt="Al-Iman School logo" loading="lazy">
+                </div>
+                <div class="project-body">
+                  <h4>Al-Iman School</h4>
+                  <p>School portal, content management</p>
+                  <a class="btn small" href="https://www.aliman.sch.ps/" target="_blank" rel="noopener">Visit Site</a>
+                </div>
+              </div>
+
+              <div class="col-12 col-sm-6 col-md-4 project" data-cat="corp">
+                <div class="project-media">
+                  <img src="assets/img/Rev.png" alt="Revinn logo" loading="lazy">
+                </div>
+                <div class="project-body">
+                  <h4>Revinn</h4>
+                  <p>Product site with modern UI</p>
+                  <a class="btn small" href="https://revinn.net/" target="_blank" rel="noopener">Visit Site</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- TRAINING / CERTIFICATIONS -->
+        <section id="training" class="section training-sky">
+          <div class="container">
+            <h2>Training &amp; Certifications</h2>
+            <ul class="train-list">
+              <li><strong>Full-Stack Developer</strong> — Web API, SignalR, Blazor (Oct 2024 → Apr 2025)</li>
+              <li><strong>Full-Stack Developer</strong> — ASP.NET Core (C#), Angular 9 (Apr 2025 → Jun 2025)</li>
+              <li><strong>Oracle 8i &amp; SQL</strong> — Bright Future Institute, Baghdad (Nov 2002)</li>
+              <li><strong>Accounting Applications</strong> — Salam Cultural Center, Amman (Sep 2004)</li>
+              <li><strong>MCSE 2003</strong> — Al-Tabiea Institute, Baghdad (Jan 2007)</li>
+              <li><strong>Mikrotik Router Server</strong> — Al-Tabiea Institute (Mar 2008)</li>
+              <li><strong>CISCO CCNA</strong> — Al-Tabiea Institute (Jun 2008)</li>
+              <li><strong>Diploma: Software Engineering Industry Experience</strong> — Arab Group for Computer, Cairo (Dec 2015) —
+                <a href="https://drive.google.com/file/d/1M2-DH5zmeBluZYnxtIOoDHxjPfgjCArS/view?usp=sharing" target="_blank" rel="noopener">Certificate</a>
+              </li>
+              <li><strong>Web Developer</strong> — Pioneer Academy, Amman (Dec 2016)</li>
+              <li><strong>Flutter</strong> — Udemy (Dec 2022)</li>
+              <li><strong>Flutter</strong> — Erraa Soft Academy, Egypt (Jan 2025)</li>
+            </ul>
+          </div>
+        </section>
+
+        <!-- CONTACT -->
+        <section id="contact" class="section alt">
+          <div class="container">
+            <h2>Contact</h2>
+
+            <div class="row gy-3 gx-3 info-cards">
+              <div class="col-12 col-md-4">
+                <div class="card h-100">
+                  <h3><i class="fa-regular fa-envelope"></i> Email</h3>
+                  <p><a href="mailto:qaisalshaar2020@outlook.com">qaisalshaar2020@outlook.com</a></p>
+
+                  <a id="open-wa" href="https://wa.me/962798009557" class="wa-trigger" rel="noopener">
+                    <svg aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor">
+                      <path d="M20.52 3.48A11.9 11.9 0 0 0 12.02 0C5.41 0 .06 5.35.06 11.95c0 2.1.55 4.12 1.6 5.92L0 24l6.29-1.64a11.98 11.98 0 0 0 5.72 1.46h.01c6.6 0 11.95-5.35 11.95-11.95 0-3.19-1.24-6.19-3.45-8.39zM12 21.8h-.01c-1.88 0-3.72-.5-5.33-1.45l-.38-.22-3.73.97.99-3.64-.25-.38A9.86 9.86 0 0 1 2.2 12C2.2 6.59 6.59 2.2 12 2.2c2.63 0 5.1 1.02 6.96 2.88A9.77 9.77 0 0 1 21.8 12c0 5.41-4.39 9.8-9.8 9.8zm5.53-7.33c-.3-.15-1.77-.87-2.05-.97-.28-.1-.48-.15-.69.15-.2.3-.79.97-.97 1.17-.18.2-.36.22-.66.08-.3-.15-1.25-.46-2.38-1.46-.88-.78-1.47-1.74-1.64-2.04-.17-.3-.02-.47.13-.62.13-.13.3-.36.44-.54.15-.18.2-.3.3-.5.1-.2.05-.38-.03-.53-.08-.15-.69-1.65-.94-2.26-.25-.6-.5-.52-.69-.53l-.59-.01c-.2 0-.52.08-.79.38-.27.3-1.04 1.02-1.04 2.48s1.07 2.88 1.22 3.08c.15.2 2.1 3.2 5.08 4.49.71.31 1.27.49 1.7.62.71.23 1.36.2 1.87.12.57-.08 1.77-.72 2.02-1.41.25-.69.25-1.28.17-1.41-.08-.13-.28-.2-.58-.35z"></path>
+                    </svg>
+                    Chat on WhatsApp
+                  </a>
+                </div>
+              </div>
+
+              <div class="col-12 col-md-4">
+                <div class="card h-100">
+                  <h3><i class="fa-solid fa-location-dot"></i> Location</h3>
+                  <p>Baghdad, Iraq • Amman, Jordan</p>
+                </div>
+              </div>
+
+              <div class="col-12 col-md-4">
+                <div class="card h-100">
+                  <h3><i class="fa-regular fa-calendar-check"></i> Availability</h3>
+                  <p>Full-time, contract, or freelance</p>
+                </div>
+              </div>
+            </div>
+
+            <form class="contact-form mt-3" action="https://formspree.io/f/xeovelpw" method="post">
+              <div class="row g-3">
+                <div class="col-12 col-md-6">
+                  <label class="w-100">
+                    <span>Name</span>
+                    <input type="text" name="name" class="form-control bg-transparent" placeholder="Your name" required>
+                  </label>
+                </div>
+                <div class="col-12 col-md-6">
+                  <label class="w-100">
+                    <span>Email</span>
+                    <input type="email" name="email" class="form-control bg-transparent" placeholder="you@example.com" required>
+                  </label>
+                </div>
+                <div class="col-12">
+                  <label class="w-100">
+                    <span>Message</span>
+                    <textarea name="message" rows="6" class="form-control bg-transparent" placeholder="Tell me about your project…" required></textarea>
+                  </label>
+                </div>
+              </div>
+              <button class="btn mt-3" type="submit"><i class="fa-regular fa-paper-plane"></i> Send</button>
+            </form>
+          </div>
+        </section>
+
+        <!-- FOOTER -->
+        <footer id="footer">
+          <div class="container footer-inner">
+            <span>© 2025 Kais Alshaar</span>
+          </div>
+        </footer>
+
+      </main>
+    </div>
+  </div>
+
+<!-- Bootstrap JS (optional but recommended) -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+ <!-- WhatsApp floating button + mini chat modal -->
+  <div class="ka-wa-widget" aria-live="polite">
+    <!-- Hidden checkbox controls open/close -->
+    <input type="checkbox" id="kaWaToggle" class="ka-wa-toggle" />
+
+    <!-- Floating button (50x50) -->
+    <label for="kaWaToggle" class="ka-wa-fab" aria-label="Chat on WhatsApp">
+      <i class="fa-brands fa-whatsapp"></i>
+    </label>
+
+    <!-- Mini chat modal (225x200) -->
+    <div class="ka-wa-modal" aria-hidden="true">
+      <!-- header -->
+      <div class="ka-wa-modal-header">
+        <div class="ka-wa-avatar-wrap">
+          <img src="assets/img/portrait.jpg" alt="Kais Alshaar" class="ka-wa-avatar">
+          <span class="ka-wa-status-dot"></span>
+        </div>
+        <div class="ka-wa-header-info">
+          <div class="ka-wa-header-name">Kais Alshaar</div>
+          <div class="ka-wa-header-status">offline</div>
+        </div>
+
+        <!-- close button -->
+        <label for="kaWaToggle" class="ka-wa-close" aria-label="Close chat">×</label>
+      </div>
+
+      <!-- body -->
+      <div class="ka-wa-modal-body">
+        <div class="ka-wa-bubble">
+          <div>Hi there 👋</div>
+          <div>How can I help you?</div>
+        </div>
+
+        <a href="https://wa.me/962798009557" target="_blank" rel="noopener"
+           class="ka-wa-cta">
+          <i class="fa-brands fa-whatsapp"></i>
+          Chat on WhatsApp
+        </a>
+      </div>
+    </div>
+  </div>
+
+
+
+
+
+
+
+
+
+  <!-- Elfsight platform -->
+  <!-- <script src="https://elfsightcdn.com/platform.js" async></script> -->
+
+  <!-- Your main script -->
+  <script src="assets/js/script.js"></script>
+</body>
+</html>
